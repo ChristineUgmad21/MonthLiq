@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MONTHLIQ</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    
+    <div style = " 
+        display: grid;
+        grid-template-columns: 500px 1fr;
+        ">
+        <div class = "input-info-box">
+            <p>date</p>
+            <input type="date" class = "input-box">
+            <p>Company name</p>
+            <input type="text" class = "input-box">
+
+            <p>Description</p>
+            <select name = "description" id = "description">
+                <option value="Meal">Meal</option>
+                <option value="Parking">Parking</option>
+                <option value="Personal">Personal</option>
+                <option value="School">School</option>
+            </select>
+
+            <p>Price</p>
+            <input type="text" class = "input-box">
+            
+            <br>
+            <input type="submit" value = "Submit" class = "submit-button">
+        </div>
+
+        <div class = "example"> <!--BUDGET,SUM,REMAINING-->
+            
+            <br>
+            <p class = "text-color">Budget for the month</p>
+            <input type="text" placeholder = "amount" class = "amount-for-the-month">
+            <input type="submit" value = "submit">
+            
+            <p class = "text-color">Remaining Budget: </p>
+            <p class = "text-color">Total Expenses: </p>
+
+        </div>
+    </div>
+
+    <div class = "div-3">
+
+    </div>
+
+</body>
+
+
+</html>

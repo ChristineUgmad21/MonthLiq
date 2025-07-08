@@ -1,0 +1,75 @@
+body {
+    height: 1000px;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: Arial;
+    margin-left: 10px;
+}
+
+.input-box{
+    border-radius: 8px;
+    border-style: solid;
+    border-color: darkgreen;
+    padding: 5px;
+    width: 450px;
+}
+
+.submit-button{
+    margin-top: 10px;
+    margin-left: 2px;
+    background-color: #639377;
+    color: white;
+    border: 1px solid white; 
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    opacity: 50%;
+}
+
+.submit-button:active{
+    background-color: white;
+}
+
+#description{
+    width: 250px;
+    height: 20px;
+    border: 2px solid #639377;
+}
+
+.example{
+    background-color: #639377;
+    border-radius: 15px;
+}
+
+.div-3{
+    margin-top: 20px;
+    background-color: #639377;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.input-info-box{
+    background-color: #639377;
+    margin-right: 15px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+.amount-for-the-month{
+    margin-left: 10px;
+    height: 20px;
+}
+
+.text-color{
+    color:white;
+    font-weight: bold;
+
+}

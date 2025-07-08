@@ -1,0 +1,52 @@
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background-color: ;
+}
+
+.log-in{
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 11px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.log-in:hover{
+    opacity: 50%;
+}
+
+.username-input, .password-input{
+    border-radius: 8px;
+    border-color: #639377;
+    margin-top: 5px;
+    border-width: 2px;
+    border-style: solid;
+    color: gray;
+    font-size: 11px;
+    padding: 7px;
+    width: 400px;
+
+}
+
+.background-login{
+    border-radius: 50px;
+    padding: 50px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
