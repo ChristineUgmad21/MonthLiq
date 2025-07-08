@@ -6,6 +6,14 @@
 </head>
 <body>
     
+    <div class = "top-menu">
+        <h1 style = "text-align: center;
+        color:white;
+        font-family: Arial;
+        padding-top: 5px;
+        ">MONTHLIQ</h1>
+    </div>
+
     <div style = " 
         display: grid;
         grid-template-columns: 500px 1fr;
@@ -36,7 +44,7 @@
             <br>
             <p class = "text-color">Budget for the month</p>
             <input type="text" placeholder = "amount" class = "amount-for-the-month">
-            <input type="submit" value = "submit">
+            <input type="submit" value = "submit" class = "submit">
             
             <p class = "text-color">Remaining Budget: </p>
             <p class = "text-color">Total Expenses: </p>
@@ -44,11 +52,16 @@
         </div>
     </div>
 
-    <div class = "div-3">
+    <div class = "div-3"> <!--Calender type-->
 
+        <div class = "calender">
+        </div>
     </div>
 
 </body>
 
 
 </html>
+
+<!--When submitting, prompt are you sure window(js), and then upload-->
+<!--info submitted, will be shown in the page, but only for the month-->
