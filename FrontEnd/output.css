@@ -1,0 +1,31 @@
+#email{
+    margin:0;
+}
+
+p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.summary{
+    margin-top: 15px;
+    background-color: #639377;
+    height: 500px;
+}
+
+.email-info-box{
+    border: 1.5px solid green;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.submission-tab{
+    background-color: #639377;
+    height: 200px;
+}
+
+.user-info{
+    text-align: center;
+    justify-content: center;
+    left: 50;
+}
